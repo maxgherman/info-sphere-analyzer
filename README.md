@@ -32,6 +32,8 @@ Well-designed modules behave like **information spheres**:
 
 This tool brings quantitative feedback to that principle.
 
+[Spherical design](https://www.max-gherman.dev/design/spherical-design/)
+
 ---
 
 ## ⚡ Features
