@@ -1,0 +1,29 @@
+{
+  "include": [
+    "*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "node_modules/**",
+    "dist/**"
+  ],
+  "weights": {
+    "privateMethod": 1,
+    "internalCall": 1,
+    "internalType": 2,
+    "exportedSymbol": 3,
+    "publicMethod": 2,
+    "externalImport": 2,
+    "outgoingCall": 2
+  },
+  "alpha": 0.5,
+  "thresholds": {
+    "good": 7,
+    "warning": 3
+  },
+  "report": {
+    "markdown": "sphere-report.md",
+    "json": "sphere-report.json"
+  }
+}

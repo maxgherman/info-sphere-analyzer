@@ -1,0 +1,20 @@
+{
+  "name": "info-sphere-analyzer",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx ts-node-esm src/cli/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cli/index.js"
+  },
+  "dependencies": {
+    "ts-morph": "^22.0.0",
+    "yargs": "^17.0.1",
+    "glob": "^10.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.12.12"
+  }
+}
